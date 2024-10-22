@@ -1,0 +1,3 @@
+[submodule "src/__myutility__"]
+	path = src/__myutility__
+	url = https://github.com/noarsoft/myutility
