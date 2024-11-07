@@ -1,0 +1,52 @@
+{
+    "type": "view",
+    "style": {
+        "flexDirection": "column",
+        "padding": 10
+    },
+    "controls": [
+        {
+            "type": "view",
+            "style": {
+                "flexDirection": "row",
+                "alignItems": "center"
+            },
+            "controls": [
+                {
+                    "type": "text",
+                    "value": "First Name:",
+                    "style": { "width": 100, "fontSize": 16 }
+                },
+                {
+                    "type": "textbox",
+                    "value": "Enter first name",
+                    "style": { "flex": 1 }
+                }
+            ]
+        },
+        {
+            "type": "view",
+            "style": {
+                "flexDirection": "row",
+                "alignItems": "center"
+            },
+            "controls": [
+                {
+                    "type": "text",
+                    "value": "Picture:",
+                    "style": { "width": 100, "fontSize": 16 }
+                },
+                {
+                    "type": "image",
+                    "src": "http://example.com/example.jpg",
+                    "width": 100,
+                    "height": 100
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "value": "Submit"
+        }
+    ]
+}
