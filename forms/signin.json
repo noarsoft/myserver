@@ -1,0 +1,74 @@
+{
+    "type": "view",
+    "style": {
+        "flexDirection": "column",
+        "padding": 20,
+        "alignItems": "center"
+    },
+    "controls": [
+        {
+            "type": "view",
+            "style": {
+                "flexDirection": "row",
+                "alignItems": "center",
+                "marginBottom": 15
+            },
+            "controls": [
+                {
+                    "type": "text",
+                    "value": "Email:",
+                    "style": { "width": 100, "fontSize": 16 }
+                },
+                {
+                    "type": "textbox",
+                    "placeholder": "Enter your email",
+                    "style": { "flex": 1 }
+                }
+            ]
+        },
+        {
+            "type": "view",
+            "style": {
+                "flexDirection": "row",
+                "alignItems": "center",
+                "marginBottom": 15
+            },
+            "controls": [
+                {
+                    "type": "text",
+                    "value": "Password:",
+                    "style": { "width": 100, "fontSize": 16 }
+                },
+                {
+                    "type": "textbox",
+                    "placeholder": "Enter your password",
+                    "style": { "flex": 1 },
+                    "secureTextEntry": true
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "value": "Sign In",
+            "style": {
+                "padding": 10,
+                "backgroundColor": "#4CAF50",
+                "color": "#FFF",
+                "borderRadius": 5,
+                "alignItems": "center",
+                "width": "100%"
+            },
+            "onPress": "handleSignIn"
+        },
+        {
+            "type": "text",
+            "value": "Forgot Password?",
+            "style": {
+                "marginTop": 15,
+                "color": "#007BFF",
+                "textDecorationLine": "underline"
+            },
+            "onPress": "handleForgotPassword"
+        }
+    ]
+}
