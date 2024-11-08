@@ -14,12 +14,12 @@
             "controls": [
                 {
                     "type": "text",
-                    "value": "First Name:",
+                    "value": "Username:",
                     "style": { "width": 100, "fontSize": 16 }
                 },
                 {
                     "type": "textbox",
-                    "value": "Enter first name",
+                    "value": "Enter your username",
                     "style": { "flex": 1 }
                 }
             ]
@@ -28,7 +28,28 @@
             "type": "view",
             "style": {
                 "flexDirection": "row",
-                "alignItems": "center"
+                "alignItems": "center",
+                "marginTop": 10
+            },
+            "controls": [
+                {
+                    "type": "text",
+                    "value": "Password:",
+                    "style": { "width": 100, "fontSize": 16 }
+                },
+                {
+                    "type": "textbox",
+                    "value": "Enter your password",
+                    "style": { "flex": 1 }
+                }
+            ]
+        },
+        {
+            "type": "view",
+            "style": {
+                "flexDirection": "row",
+                "alignItems": "center",
+                "marginTop": 10
             },
             "controls": [
                 {
@@ -46,7 +67,8 @@
         },
         {
             "type": "button",
-            "value": "Submit"
+            "value": "Login",
+            "style": { "marginTop": 20, "padding": 10, "backgroundColor": "#007BFF", "color": "#FFF" }
         }
     ]
 }
