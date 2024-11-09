@@ -19,6 +19,7 @@
                 },
                 {
                     "type": "textbox",
+                    "datamap": "username",
                     "value": "Enter your username",
                     "style": { "flex": 1 }
                 }
