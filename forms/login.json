@@ -41,6 +41,7 @@
                 {
                     "type": "textbox",
                     "datamap": "passx",
+                    "is_password":true,
                     "value": "",
                     "style": { "flex": 1 }
                 }
