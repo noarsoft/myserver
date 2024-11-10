@@ -36,11 +36,11 @@
                 {
                     "type": "text",
                     "value": "Password:",
-                    "datamap": "passx",
                     "style": { "width": 100, "fontSize": 16 }
                 },
                 {
                     "type": "textbox",
+                    "datamap": "passx",
                     "value": "Enter your password",
                     "style": { "flex": 1 }
                 }
