@@ -9,7 +9,8 @@
             "type": "view",
             "style": {
                 "flexDirection": "row",
-                "alignItems": "center"
+                "alignItems": "center",
+                "marginBottom": 10
             },
             "controls": [
                 {
@@ -30,7 +31,7 @@
             "style": {
                 "flexDirection": "row",
                 "alignItems": "center",
-                "marginTop": 10
+                "marginBottom": 10
             },
             "controls": [
                 {
@@ -40,8 +41,8 @@
                 },
                 {
                     "type": "textbox",
-                    "datamap": "passx",
-                    "is_password":true,
+                    "datamap": "password",
+                    "is_password": true,
                     "value": "",
                     "style": { "flex": 1 }
                 }
@@ -52,7 +53,7 @@
             "style": {
                 "flexDirection": "row",
                 "alignItems": "center",
-                "marginTop": 10
+                "marginBottom": 20
             },
             "controls": [
                 {
@@ -71,7 +72,43 @@
         {
             "type": "button",
             "value": "Login",
-            "style": { "marginTop": 20, "padding": 10, "backgroundColor": "#007BFF", "color": "#FFF" }
+            "style": {
+                "padding": 10,
+                "backgroundColor": "#007BFF",
+                "color": "#FFF",
+                "alignItems": "center",
+                "borderRadius": 5
+            },
+            "onPress": "handleLogin"
+        },
+        {
+            "type": "view",
+            "style": {
+                "flexDirection": "row",
+                "alignItems": "center",
+                "justifyContent": "center",
+                "marginTop": 20
+            },
+            "controls": [
+                {
+                    "type": "text",
+                    "value": "Don't have an account?",
+                    "style": { "fontSize": 16 }
+                },
+                {
+                    "type": "button",
+                    "value": "Sign Up",
+                    "style": {
+                        "marginLeft": 10,
+                        "paddingVertical": 10,
+                        "paddingHorizontal": 20,
+                        "backgroundColor": "#28a745",
+                        "color": "#FFF",
+                        "borderRadius": 5
+                    },
+                    "onPress": "navigateToSignUp"
+                }
+            ]
         }
     ]
 }
