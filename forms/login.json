@@ -20,7 +20,7 @@
                 {
                     "type": "textbox",
                     "datamap": "username",
-                    "value": "Enter your username",
+                    "value": "",
                     "style": { "flex": 1 }
                 }
             ]
@@ -41,7 +41,7 @@
                 {
                     "type": "textbox",
                     "datamap": "passx",
-                    "value": "Enter your password",
+                    "value": "",
                     "style": { "flex": 1 }
                 }
             ]
