@@ -1,0 +1,26 @@
+
+{
+    "submitButton": "Submit",
+    "userNameInput": "John Doe",
+    "userSkills": ["React", "JavaScript"],
+    "userToggleSwitch": true,
+    "userDropdownSelection": "2",
+    "userCalendarSelection": "15-5-2023",
+    "userDatePicker": "10-4-2023",
+    "userOptionBox": "1",
+    "userTimeInput": "12:30",
+    "userTable": [
+        { "name": "Alice", "age": 30, "location": "New York" },
+        { "name": "Bob", "age": 25, "location": "San Francisco" }
+    ],
+    "productTable": [
+        { "product": "Laptop", "price": "$1000" },
+        { "product": "Phone", "price": "$500" }
+    ],
+    "paginationControl": { "page_no": 1, "page_total": 5 },
+    "imageGallery": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+    ],
+    "userComments": "Initial comment text."
+}

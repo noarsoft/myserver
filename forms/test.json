@@ -1,0 +1,109 @@
+{
+    "type": "view",
+    "controls": [
+        {
+            "type": "button",
+            "value": "Submit",
+            "style": { "padding": 10, "backgroundColor": "#007BFF", "borderRadius": 5 },
+            "datamap": "submitButton",
+            "onPress": "Submit button clicked"
+        },
+        {
+            "type": "textbox",
+            "value": "Enter your name",
+            "style": { "padding": 10, "borderWidth": 1, "borderColor": "#ccc", "borderRadius": 5 },
+            "datamap": "userNameInput"
+        },
+        {
+            "type": "textboxtag",
+            "data": [
+                { "key": "1", "value": "React" },
+                { "key": "2", "value": "JavaScript" },
+                { "key": "3", "value": "TypeScript" }
+            ],
+            "placeholder": "Type a skill...",
+            "datamap": "userSkills"
+        },
+        {
+            "type": "toggle",
+            "initialToggleState": true,
+            "datamap": "userToggleSwitch"
+        },
+        {
+            "type": "dropdown",
+            "options": [
+                { "label": "Option 1", "value": "1" },
+                { "label": "Option 2", "value": "2" },
+                { "label": "Option 3", "value": "3" }
+            ],
+            "datamap": "userDropdownSelection",
+            "initialSelectedValue": "1"
+        },
+        {
+            "type": "calendar",
+            "day": 15,
+            "month": 5,
+            "year": 2023,
+            "datamap": "userCalendarSelection"
+        },
+        {
+            "type": "datepicker",
+            "day": 10,
+            "month": 4,
+            "year": 2023,
+            "highlightedDates": ["10-4-2023", "15-4-2023"],
+            "datamap": "userDatePicker"
+        },
+        {
+            "type": "optionbox",
+            "options": [
+                { "id": "1", "label": "Option A" },
+                { "id": "2", "label": "Option B" }
+            ],
+            "datamap": "userOptionBox"
+        },
+        {
+            "type": "timeinput",
+            "value": "12:30",
+            "datamap": "userTimeInput"
+        },
+        {
+            "type": "table",
+            "headers": [{ "name": "Name" }, { "age": "Age" }, { "location": "Location" }],
+            "data": [
+                { "name": "Alice", "age": 30, "location": "New York" },
+                { "name": "Bob", "age": 25, "location": "San Francisco" }
+            ],
+            "datamap": "userTable"
+        },
+        {
+            "type": "vtable",
+            "headers": [{ "product": "Product" }, { "price": "Price" }],
+            "data": [
+                { "product": "Laptop", "price": "$1000" },
+                { "product": "Phone", "price": "$500" }
+            ],
+            "datamap": "productTable"
+        },
+        {
+            "type": "pagination",
+            "page_no": 1,
+            "page_total": 5,
+            "datamap": "paginationControl"
+        },
+        {
+            "type": "imagelist",
+            "imgs": [
+                "https://example.com/image1.jpg",
+                "https://example.com/image2.jpg"
+            ],
+            "datamap": "imageGallery"
+        },
+        {
+            "type": "textarea",
+            "placeholder": "Enter your comments...",
+            "datamap": "userComments"
+        }
+    ]
+}
+
