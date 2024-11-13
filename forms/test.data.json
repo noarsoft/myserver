@@ -19,8 +19,8 @@
     ],
     "paginationControl": { "page_no": 1, "page_total": 5 },
     "imageGallery": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
+        "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png",
+        "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png"
     ],
     "userComments": "Initial comment text."
 }

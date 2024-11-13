@@ -94,8 +94,8 @@
         {
             "type": "imagelist",
             "imgs": [
-                "https://example.com/image1.jpg",
-                "https://example.com/image2.jpg"
+                "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png",
+                "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png"
             ],
             "datamap": "imageGallery"
         },
