@@ -10,8 +10,8 @@
     "userOptionBox": "1",
     "userTimeInput": "12:30",
     "userTable": [
-        { "name": "Alice", "age": 30, "location": "New York" },
-        { "name": "Bob", "age": 25, "location": "San Francisco" }
+        { "name": "Alice", "profilePic": "https://github.com/noarsoft/myserver/blob/master/forms/null.png", "location": "New York" },
+        { "name": "Bob", "profilePic": "https://github.com/noarsoft/myserver/blob/master/forms/null.png", "location": "San Francisco" }
     ],
     "productTable": [
         { "product": "Laptop", "price": "$1000" },
