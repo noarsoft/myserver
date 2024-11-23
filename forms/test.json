@@ -70,14 +70,13 @@
         {
             "type": "table",
             "headers": [
-                { "key": "name", "label": "Name", "style": { "backgroundColor": "#f9f9f9" } },
-                { "key": "age", "label": "Age", "style": { "backgroundColor": "#dcdcdc", "textAlign": "center" } },
-                { "key": "location", "label": "Location", "style": { "backgroundColor": "#f0f0f0", "textAlign": "right" } }
+                { "key": "name", "label": "Name", "type": "text" },
+                { "key": "profilePic", "label": "Profile Picture", "type": "image", "style": { "justifyContent": "center" } },
+                { "key": "location", "label": "Location", "type": "text" }
             ],
             "data": [
-                { "name": "Alice", "age": 30, "location": "New York" },
-                { "name": "Bob", "age": 25, "location": "San Francisco" },
-                { "name": "Charlie", "age": 35, "location": "Chicago" }
+                { "name": "Alice", "profilePic": "https://example.com/alice.jpg", "location": "New York" },
+                { "name": "Bob", "profilePic": "https://example.com/bob.jpg", "location": "San Francisco" }
             ],
             "datamap": "userTable"
         },
