@@ -102,6 +102,13 @@
             "datamap": "imageGallery"
         },
         {
+                    "type": "image",
+                    "src": "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png",
+                    "width": 100,
+                    "height": 100,
+                    "datamap": "UserImageDisplay"
+                },
+        {
             "type": "textarea",
             "placeholder": "Enter your comments...",
             "datamap": "userComments"
