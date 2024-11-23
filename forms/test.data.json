@@ -19,8 +19,8 @@
     ],
     "paginationControl": { "page_no": 1, "page_total": 5 },
     "imageGallery": [
-        "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png",
-        "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png"
+        { "name": "Alice", "profilePic": "https://github.com/noarsoft/myserver/blob/master/forms/null.png", "location": "New York" },
+        { "name": "Bob", "profilePic": "https://github.com/noarsoft/myserver/blob/master/forms/null.png", "location": "San Francisco" }
     ],
     "UserImageDisplay":"https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png",
     "userComments": "Initial comment text."
