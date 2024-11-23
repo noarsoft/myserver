@@ -83,7 +83,7 @@
         {
             "type": "vtable",
             "headers": [
-                { "key": "name", "label": "Name", "type": "text" },
+                { "key": "name", "label": "Name", "type": "text","style": { "justifyContent": "left" } },
                 { "key": "profilePic", "label": "Profile Picture", "type": "image", "style": { "justifyContent": "center" } },
                 { "key": "location", "label": "Location", "type": "text" }
             ],
