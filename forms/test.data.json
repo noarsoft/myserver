@@ -17,14 +17,7 @@
         { "product": "Laptop", "price": "$1000" },
         { "product": "Phone", "price": "$500" }
     ],
-    {
-        "type": "pagination",
-        "page_no": 2,
-        "page_total": 10,
-        "datamap": "PaginationControl",
-        "onNext": "handleNextPage",
-        "onPrevious": "handlePreviousPage"
-    },
+    "paginationControl": { "page_no": 1, "page_total": 5 },
     "imageGallery": [
         "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png",
         "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png"
