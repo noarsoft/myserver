@@ -75,8 +75,8 @@
                 { "key": "location", "label": "Location", "type": "text" }
             ],
             "data": [
-                { "name": "Alice", "profilePic": "https://example.com/alice.jpg", "location": "New York" },
-                { "name": "Bob", "profilePic": "https://example.com/bob.jpg", "location": "San Francisco" }
+                { "name": "Alice", "profilePic": "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png", "location": "New York" },
+                { "name": "Bob", "profilePic": "https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png", "location": "San Francisco" }
             ],
             "datamap": "userTable"
         },
