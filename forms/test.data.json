@@ -24,5 +24,6 @@
         { "name": "Bob", "profilePic": "https://github.com/noarsoft/myserver/blob/master/forms/null.png", "location": "San Francisco" }
     ],
     "UserImageDisplay":"https://raw.githubusercontent.com/noarsoft/myserver/refs/heads/master/forms/null.png",
-    "userComments": "Initial comment text."
+    "userComments": "Initial comment text.",
+    "exampleVideo":"https://file-examples.com/storage/fe83e8a190674337794c387/2017/04/file_example_MP4_480_1_5MG.mp4"
 }
