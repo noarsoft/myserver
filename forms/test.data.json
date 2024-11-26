@@ -1,7 +1,7 @@
 
 {
     "dynamicLabel":"Test Gencontrol Noarsoft",
-    "submitButton": "Submit",
+    "submitButton": "Submit aaaa",
     "userNameInput": "John Doe",
     "userSkills": ["React", "JavaScript"],
     "userToggleSwitch": true,
