@@ -143,7 +143,7 @@
         },
         {
             "type": "video",
-            "source": "https://www.example.com/video.mp4",
+            "source": "https://file-examples.com/storage/fe83e8a190674337794c387/2017/04/file_example_MP4_480_1_5MG.mp4",
             "style": { "borderRadius": 10 },
             "containerStyle": { "margin": 20 },
             "mapdata": "exampleVideo",
