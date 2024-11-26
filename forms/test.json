@@ -140,6 +140,15 @@
             "type": "textarea",
             "placeholder": "Enter your comments...",
             "datamap": "userComments"
+        },
+        {
+            "type": "video",
+            "source": "https://www.example.com/video.mp4",
+            "style": { "borderRadius": 10 },
+            "containerStyle": { "margin": 20 },
+            "mapdata": "exampleVideo",
+            "showControls": true,
+            "loop": true
         }
     ]
 }
