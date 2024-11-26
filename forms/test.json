@@ -149,6 +149,12 @@
             "mapdata": "exampleVideo",
             "showControls": true,
             "loop": true
+        },
+        {
+            "type": "music",
+            "source": "https://file-examples.com/storage/fe83e8a190674337794c387/2017/11/file_example_MP3_700KB.mp3",
+            "style": { "margin": 20 },
+            "mapdata": "exampleMusic"
         }
     ]
 }
