@@ -152,7 +152,7 @@
         },
         {
             "type": "music",
-            "source": "https://file-examples.com/storage/fe83e8a190674337794c387/2017/11/file_example_MP3_700KB.mp3",
+            "source": "https://samples-files.com/samples/audio/mp3/sample-file-4.mp3",
             "style": { "margin": 20 },
             "mapdata": "exampleMusic"
         }
