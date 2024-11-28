@@ -164,7 +164,13 @@
             "color": "#000000",
             "containerStyle": { "margin": 20 },
             "mapdata": "exampleQRCode"
+        },
+        {
+            "type": "cameraqrcode",
+            "containerStyle": { "margin": 20 },
+            "style": { "height": 400 }
         }
+
     ]
 }
 
