@@ -166,7 +166,9 @@
             "mapdata": "exampleQRCode"
         },
         {
-            "type":"camera"
+            "type":"camera",
+            "containerStyle": { "margin": 20 },
+            "style": { "height": 400 }
         },
         {
             "type": "cameraqrcode",
