@@ -166,12 +166,12 @@
             "mapdata": "exampleQRCode"
         },
         {
+            "type":"camera"
+        },
+        {
             "type": "cameraqrcode",
             "containerStyle": { "margin": 20 },
             "style": { "height": 400 }
-        },
-        {
-            "type":"camera"
         }
 
     ]
