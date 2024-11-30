@@ -6,7 +6,7 @@
             "value": "Submit",
             "style": { "padding": 10, "backgroundColor": "#007BFF", "borderRadius": 5 },
             "datamap": "submitButton",
-            "onPress": "Submit button clicked"
+            "onPress": "button1_onclick"
         },
         {
             "type": "label",
@@ -14,7 +14,7 @@
             "style": { "fontSize": 18, "color": "green" },
             "containerStyle": { "backgroundColor": "#dff0d8", "padding": 10 },
             "datamap": "dynamicLabel",
-            "onPress": "handleDynamicLabelClick"
+            "onPress": "button1_onclick"
         },
         {
             "type": "textbox",
