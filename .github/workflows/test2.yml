@@ -21,6 +21,6 @@ jobs:
     - name: Run Test1
       run: |
         output=$(node dist/Test1.js)
-        echo output
+        echo $output
         
       
