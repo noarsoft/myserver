@@ -10,10 +10,10 @@ const unit_test = () => {
         return;
     }
     //test case 2
-    if ((0, Utils_1.add)(-2, -3) === -5) {
+    if ((0, Utils_1.add)(-2, -3) === -4) {
     }
     else {
-        console.log(1);
+        console.log(2);
         return;
     }
 };
