@@ -23,7 +23,7 @@ jobs:
         output=$(node dist/Test1.js)
 
         if [ $output -ne 0 ]; then
-          echo "error"
+          echo "error $output"
           exit 1
         fi
         
