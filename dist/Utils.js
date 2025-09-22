@@ -6,5 +6,5 @@ function helloworld() {
     return "Hello, World!";
 }
 function add(a, b) {
-    return a - b;
+    return a + b;
 }
