@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const { utimes } = require("fs");
 const Utils_1 = require("./Utils");
 const unit_test = () => {
     //test case 1
@@ -18,5 +17,4 @@ const unit_test = () => {
         return;
     }
 };
-
 unit_test();
