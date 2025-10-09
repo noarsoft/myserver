@@ -26,6 +26,6 @@ app.use(Express.static(path.join(__dirname, "public")));
 app.get("/", (req, res) => {
     res.send("Hello, World!123");
 });
-app.listen(3000, () => {
-    console.log("Server is running on http://localhost:3000");
+app.listen(80, () => {
+    console.log("Server is running on http://localhost:80");
 });
