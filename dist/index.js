@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const Express = require("express");
 const mongoose_1 = __importDefault(require("mongoose"));
-const UserRoutes_1 = __importDefault(require("./UserRoutes"));
+// import userRoutes from "./UserRoutes";
 const cors_1 = __importDefault(require("cors"));
 const path = require("path");
 const app = Express();
@@ -22,7 +22,7 @@ app.use(Express.json());
 app.use((0, cors_1.default)());
 app.use(Express.static(path.join(__dirname, "public")));
 // Routes
-app.use("/api", UserRoutes_1.default);
+// app.use("/api", userRoutes);
 app.get("/", (req, res) => {
     res.send("Hello, World!123");
 });
