@@ -12,10 +12,10 @@ const utils = require('./Utils').utils;
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     // test case 1 of unit test
     //test
-    if (utils.add(2, 3) === 6) {
+    if (utils.add(2, 3) === 5) {
     }
     else {
-        console.log("Test failed");
+        console.log("Test failed: utils.add(2, 3) === 5");
         process.exit(1);
     }
 });
