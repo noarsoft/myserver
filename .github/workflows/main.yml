@@ -15,11 +15,3 @@ jobs:
 
     - name: Run Test1
       run: node dist/Test1.js
-      # run: |
-      #   output=$(node dist/Test1.js)
-      #   exit_code=$output
-
-      #   if[ $exit_code -ne 0 ]; then
-      #     echo "error: exit code $exit_code"
-      #     exit 1
-      #   fi
