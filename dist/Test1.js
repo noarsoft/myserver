@@ -15,8 +15,8 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     if (utils.add(2, 3) === 5) {
     }
     else {
-        console.log(1);
-        return;
+        console.log("Test failed");
+        process.exit(1);
     }
 });
 unit_test();
