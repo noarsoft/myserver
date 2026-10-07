@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: iamyourgod/test:latest
+          images: iamyourgod/test2:latest
           # images: my-docker-hub-namespace/my-docker-hub-repository
 
       - name: Build and push Docker image
