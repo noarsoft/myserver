@@ -24,5 +24,19 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
         console.log("UnitTest Case 2: utils.add(3, 3) === 6");
         process.exit(1);
     }
+    //user email doesn't have a valid format
+    if (utils.add_user("test1234", "testnoassigning", "password") === false) {
+    }
+    else {
+        console.log("UnitTest Case 3: utils.add_user(\"test\", \"testnoassigning\", \"password\") === false");
+        process.exit(1);
+    }
+    //user password is less than 6 characters
+    if (utils.add_user("test1234", "test@example.com", "123") === false) {
+    }
+    else {
+        console.log("UnitTest Case 4: utils.add_user(\"test1234\", \"test@example.com\", \"123\") === false");
+        process.exit(1);
+    }
 });
 unit_test();

@@ -17,11 +17,11 @@ const User_1 = __importDefault(require("./User"));
 const Utils_1 = require("./Utils");
 const createUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { name, email, password } = req.body;
+        const { name, email, password, age } = req.body;
         if (!Utils_1.utils.add_user(name, email, password)) {
             return res.status(400).json({ error: "Invalid user data" });
         }
-        const newUser = new User_1.default({ name, email, password });
+        const newUser = new User_1.default({ name, email, password, age });
         yield newUser.save();
         res.status(201).json(newUser);
     }

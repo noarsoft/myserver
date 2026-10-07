@@ -4,7 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const mongoose_1 = __importDefault(require("mongoose"));
 const UserRoutes_1 = __importDefault(require("./UserRoutes"));
 const cors_1 = __importDefault(require("cors"));
 const node_dns_1 = __importDefault(require("node:dns"));
@@ -19,13 +18,16 @@ app.get("/", (req, res) => {
     res.send("Hello World!");
 });
 app.use("/api", UserRoutes_1.default);
-mongoose_1.default.connect("mongodb+srv://<username>:<password>@cluster0.igalrns.mongodb.net/?appName=Cluster0")
-    .then(() => {
-    console.log("Connected to MongoDB");
-    app.listen(port, () => {
-        console.log(`Server is running at http://localhost:${port}`);
-    });
-})
-    .catch((error) => {
-    console.error("Error connecting to MongoDB:", error);
+app.listen(port, () => {
+    console.log(`Server is running at http://localhost:${port}`);
 });
+// mongoose.connect("mongodb+srv://<username>:<password>@cluster0.igalrns.mongodb.net/?appName=Cluster0")
+//     .then(() => {
+//         console.log("Connected to MongoDB");
+//         app.listen(port, () => {
+//             console.log(`Server is running at http://localhost:${port}`);
+//         });
+//     })
+//     .catch((error) => {
+//         console.error("Error connecting to MongoDB:", error);
+//     });
